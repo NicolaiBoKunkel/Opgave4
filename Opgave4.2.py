@@ -1,4 +1,4 @@
-#Server
+#Server Opgave 4
 
 from socket import *
 import threading
