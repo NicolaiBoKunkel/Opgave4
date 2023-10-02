@@ -24,7 +24,7 @@ def handleOneClient(connectionSocket, address):
         else:
             result = 'Invalid input'
 
-        response = f'Result;{result}'
+        response = f'Resultat;{result}'
         connectionSocket.send(response.encode())
     else:
         connectionSocket.send('Invalid input'.encode())
