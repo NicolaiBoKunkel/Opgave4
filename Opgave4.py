@@ -17,6 +17,6 @@ clientsocket.send(data)
 datatilbage = clientsocket.recv(2048)
 sentanceTilbage = datatilbage.decode()
 
-print ("modtaget resultat", sentanceTilbage)
+print ("modtaget resultat:", sentanceTilbage)
 
 clientsocket.close
